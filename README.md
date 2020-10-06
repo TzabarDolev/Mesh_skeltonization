@@ -1,4 +1,4 @@
-skeletor is a great implementation of the article "Skeleton extraction by mesh contraction", but it uses CloudVloume which is not local and not easy to use. <br>
+Skeletor is a great implementation of the article "Skeleton extraction by mesh contraction", but it uses CloudVloume which is not local and not easy to use. <br>
 I've created a short script for calculating the skeleton of an stl file using Trimesh.<br>
 Just add the file to the directory where you clone the code from https://github.com/schlegelp/skeletor, and add an stl file to the folder too.<br><br>
 
