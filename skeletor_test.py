@@ -44,5 +44,5 @@ o3d.visualization.draw_geometries([mesh_o3d, pcd])
 o3d.visualization.draw_geometries([pcd])
 
 # exporting csv file
-export_file_path = mesh_name + '.csv'
+export_file_path = mesh_name[:-4] + '.csv'
 swc.to_csv(export_file_path, index=False, header=True)
